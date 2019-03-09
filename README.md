@@ -2,7 +2,7 @@
 
 ## 说明
 
-> 基于vue+element的电商后台管理系统，完整实现了整个流程。
+> 基于Vue+Element的电商后台管理系统，完整实现了整个流程。
 
 > 该项目为前后端分离项目，搭建步骤具体参考后端项目[传送门](https://github.com/macrozheng/mall)。
 
@@ -13,6 +13,8 @@
 > 项目交流QQ群：[959351312](http://qm.qq.com/cgi-bin/qm/qr?k=V6xu5c12j9qhnMUNdDRzakNxRKzOxibQ)。
 
 > 如有问题或者好的建议可以在 Issues 中提。
+
+> 码云项目地址：[https://gitee.com/macrozheng/mall-admin-web](https://gitee.com/macrozheng/mall-admin-web)
 
 ## 前言
 
@@ -26,7 +28,7 @@
 
 ## 项目演示
 
-项目在线演示地址：[www.macro.com/mall-admin/index.html](http://39.98.190.128/index.html)  
+项目在线演示地址：[http://39.98.190.128/index.html](http://39.98.190.128/index.html)  
 
 ![https://github.com/macrozheng/mall/blob/master/document/resource/mall-admin.gif](https://github.com/macrozheng/mall/blob/master/document/resource/mall-admin.gif)
 
@@ -42,6 +44,7 @@ Axios | 前端HTTP框架 | [https://github.com/axios/axios](https://github.com/a
 v-charts | 基于Echarts的图表框架 | [https://v-charts.js.org/](https://v-charts.js.org/)
 Js-cookie | cookie管理工具 | [https://github.com/js-cookie/js-cookie](https://github.com/js-cookie/js-cookie)
 nprogress | 进度条控件 | [https://github.com/rstacruz/nprogress](https://github.com/rstacruz/nprogress)
+vue-element-admin | 项目脚手架参考 | [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 
 ### 项目布局
 
