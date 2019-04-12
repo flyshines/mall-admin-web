@@ -195,6 +195,44 @@ export const constantRouterMap = [
     ]
   },
   {
+    path: '/banner',
+    component: Layout,
+    redirect: '/banner/app',
+    name: 'banner',
+    meta: {title: '轮播图', icon: 'banner'},
+    children: [
+      {
+        path: 'app',
+        name: 'app',
+        component: () => import('@/views/banner/app/index'),
+        meta: {title: '轮播图', icon: 'banner'}
+      }
+     ]
+  },
+
+  {
+    path: '/member',
+    component: Layout,
+    redirect: '/member',
+    name: 'member',
+    meta: {title: '成员管理', icon: 'banner'},
+    children: [
+      {
+        path: 'list',
+        name: 'list',
+        component: () => import('@/views/member/index'),
+        meta: {title: '成员管理', icon: 'banner'}
+      },
+      {
+        path: 'addMemberDetail',
+        name: 'addMemberDetail',
+        component: () => import('@/views/member/add'),
+        meta: {title: '添加成员'},
+        hidden:true
+      }
+    ]
+  },
+  {
     path:'/sms',
     component: Layout,
     redirect: '/sms/coupon',
